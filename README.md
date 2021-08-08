@@ -13,7 +13,7 @@ $ docker run -p 5432:5432 -e POSTGRES_PASSWORD=password -e POSTGRES_DB=pagila pa
 
 ## Using the database
 
-Given the above configuration, data should be populated in the `pagila` database and connections over port 5432 with username `postgres` and password `password` should be available.
+Given the above configuration, data should be populated in the `pagila` database and connections over port `5432` with username `postgres` and password `password` should be available.
 
 ## Other stuff
 
