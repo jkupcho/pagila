@@ -17,12 +17,12 @@ Given the above configuration, data should be populated in the `pagila` database
 
 ## Other stuff
 
-Items built into the image should be placed in the `include` directory with the path after `include` being the absolute path within the image.
+Files built into the image should be placed in the `include` directory with the path after `include` being the absolute path within the image.
 
-For example, given `include/etc/some/path/` the convention would be to add these images as follows:
+For example, given `include/etc/some/path/some.file` the convention would be to add these images as follows:
 
 ```
-ADD include/etc/some/path/ /etc/some/path/
+ADD include/etc/some/path/some.file /etc/some/path/some.file
 ```
 
 [1]: https://github.com/devrimgunduz/pagila
